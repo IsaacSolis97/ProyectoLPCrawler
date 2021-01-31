@@ -10,7 +10,7 @@ require './Deporte'
 
 
 
-class Scraper
+class ScrapperNoticias
   def initialize
   end
   def prueba
