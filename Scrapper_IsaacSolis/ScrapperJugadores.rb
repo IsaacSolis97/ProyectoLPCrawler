@@ -6,25 +6,17 @@ require './DeporteEcuador'
 
 
 
-class Scraper
+class ScrapperJugadores
   def initialize
   end
   
-  def extraerInfoGeneral(url)
+  def extraerInfoJugadores(url)
 
-    CSV.open('informacionGeneral.csv', 'a') do  |csv|
+    CSV.open('informeJugadores.csv', 'a') do  |csv|
       link= ""
       liga = ""
       jornada= ""
-      fecha= ""
-      noGoles= ""
-      porceGoles= ""
-      amarillas1= ""
-      amarillas2= ""
-      rojas= ""
-      fueraJuego= ""
-      paradas= ""
-      
+    
       urlOpen = URI.open(url)
       urlRead = urlOpen.read
       urlNoko = Nokogiri::HTML(urlRead)
@@ -52,33 +44,24 @@ class Scraper
         h1link = linkIndividual.css("h1")
         alink= h1link.css("a")
         liga = alink.inner_text
-        
-        datelink= linkIndividual.css(".date")
-        textdate = datelink.inner_text  
-        arrDate= textdate.split("|")
-        fecha = arrDate[-1]
- 
-        #obtenemos estadisticas
-        statistics = linkIndividual.css(".statistics")
-        itemStatistics = statistics.css(".item")
-        listaestadistica = []
-        itemStatistics.each do |valor|
-          numberstatistics = valor.css(".number")
-          valorstatistics = numberstatistics.inner_text
-          listaestadistica << valorstatistics
-        end
- 
-        noGoles =listaestadistica[0]
-        porceGoles=listaestadistica[1]
-        amarillas1=listaestadistica[5]
-        amarillas2=listaestadistica[6]
-        rojas=listaestadistica[7]
-        fueraJuego=listaestadistica[8]
-        paradas=listaestadistica[9]
- 
 
-        objDeporteEcuador =  InformacionGeneralLiga.new(liga,jornada,fecha, noGoles,porceGoles,amarillas1,amarillas2,rojas,fueraJuego,paradas)
-        objDeporteEcuador.registrar(csv) 
+        jugadorInfo = linkIndividual.css(".jugador")
+        infoLista = []
+        jugadorInfo.each do |jugador|
+            nameJugador = jugador.css(".name").inner_text
+            numberJugador = jugador.css(".number").inner_text
+            teamJugador = jugador.css(".team").inner_text
+
+            objDeporteEcuador =  MejoresJugadores.new(liga,jornada,teamJugador,nameJugador, numberJugador)
+            objDeporteEcuador.registrar(csv)
+        end
+
+
+        
+ 
+=begin
+         
+=end
       end
     end
   end
