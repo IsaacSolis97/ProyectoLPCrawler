@@ -37,4 +37,3 @@ def imprimir_historial():
 
 print(f"\nEl equipo con mejor ofensiva en los ultimos 5 años fue \'{mejor_equipo_nombre}\' con un PPG promedio de  {mejor_PPG} \n")
 imprimir_historial()
-
