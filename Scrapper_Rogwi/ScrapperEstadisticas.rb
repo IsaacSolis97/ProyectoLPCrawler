@@ -18,7 +18,7 @@ class ScrapperEstadisticas
     
     CSV.open('NBA_RegularSeason.csv', 'wb') do |csv|
       #Creacion de los headers
-      csv << %w[Temporada Conferencia Equipo Victorias Derrotas V/D  PuntosPorJuego PuntosRecibidosPorJuego SRS]
+      csv << %w[Poscicion Temporada Conferencia Equipo Victorias Derrotas V/D  PuntosPorJuego PuntosRecibidosPorJuego SRS]
 
       #abrir link de cada temporada
       urls.each do |temporada, url|
@@ -27,7 +27,7 @@ class ScrapperEstadisticas
         conferencias = {"este"=>"#confs_standings_E", "oeste"=>"#confs_standings_W"}
         conferencias.each do |llave, valor|
           #tabla de conferecia , hallo cada fila de la tabla
-          
+          poscicion=1
           inf = pagina.css(valor).css("tbody").css("tr")
           inf.each do |fila|
             #nombre
@@ -45,10 +45,10 @@ class ScrapperEstadisticas
             puntosRecibidosPorJuego = fila.children[6].inner_text
             #srs
             srs = fila.children[7].inner_text
-
+            
             #registro en csv
-            csv << [temporada, llave, nombre, victorias, derrotas, balance, puntosPorJuego, puntosRecibidosPorJuego, srs]
-
+            csv << [poscicion ,temporada, llave, nombre, victorias, derrotas, balance, puntosPorJuego, puntosRecibidosPorJuego, srs]
+            poscicion+=1
             
           end
         end  
