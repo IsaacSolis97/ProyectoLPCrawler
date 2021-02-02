@@ -36,7 +36,6 @@ else:
 
 filtro1Agrupar = filtro1.groupby(['Nombre Jugador', 'Equipo']).mean()
 maxFiltro1 = filtro1Agrupar["Puntos"].max()
-minFiltro1 = filtro1Agrupar["Puntos"].min()
 
 input("Enter para continuar")
 print("\n")
@@ -47,7 +46,6 @@ print(filtro1Agrupar)
 filtro1Agrupar['Puntos'].plot ( kind = 'hist' , title = 'Resultados' )
 plt.show()
 
-input("Enter para continuar")
 print("\n")
 
 
@@ -57,12 +55,23 @@ jugadormax = filtro1Agrupar[filtro1Agrupar['Puntos'] == maxFiltro1 ]
 print(jugadormax)
 
 print("\n")
+print("\n")
 
+print("Busqueda de Mejores jugadores por Equipo")
+nombreEquipo = jugadores['Equipo'].unique()
+contador2 = 0
+for equipo in nombreEquipo:
+    contador2= contador2 +1
+    print(contador2 ,": " ,equipo)
+print("Ingrese 0, para hacer la budqueda en todos los equipos")
+equipo= input("Ingrese el equipo que desea buscar:  ")
+if equipo == "0":
+    filtro1Equipo = jugadores
+else:
+    filtro1Equipo = jugadores[jugadores['Equipo'] == equipo]
 
-print("Jugadores con menos puntos")
-print("El puntaje minimo es: "  , minFiltro1)
-jugadormin = filtro1Agrupar[filtro1Agrupar['Puntos'] == minFiltro1 ]
-print(jugadormin)
-
-
+filtro1EquipoAgrupado = filtro1Equipo.groupby(['Nombre Jugador', 'Equipo']).mean()
+plt.hist(filtro1EquipoAgrupado)
+plt.show()
+print(filtro1EquipoAgrupado)
 
