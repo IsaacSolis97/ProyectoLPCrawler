@@ -1,0 +1,375 @@
+1,Manchester City,20,13,5,2,44,+24
+2,Manchester Utd,21,12,5,4,41,+10
+3,Liverpool,21,11,7,3,40,+19
+4,Leicester City,21,12,3,6,39,+12
+5,West Ham,21,10,5,6,35,+4
+6,Tottenham,20,9,6,5,33,+13
+7,Chelsea,21,9,6,6,33,+12
+8,Everton,19,10,3,6,33,+5
+9,Aston Villa,19,10,2,7,32,+13
+10,Arsenal,21,9,4,8,31,+6
+11,Southampton,20,8,5,7,29,+2
+12,Leeds United,20,9,2,9,29,-1
+13,Crystal Palace,21,7,5,9,26,-11
+14,Wolves,21,6,5,10,23,-9
+15,Newcastle Utd,21,6,4,11,22,-13
+16,Burnley,20,6,4,10,22,-13
+17,Brighton,21,4,9,8,21,-6
+18,Fulham,20,2,8,10,14,-12
+19,West Brom,21,2,6,13,12,-33
+20,Sheffield Utd,21,2,2,17,8,-22
+1,Atlético Madrid,19,16,2,1,2.63,+30
+2,Bayern Munich,19,14,3,2,2.37,+31
+3,Milan,20,14,4,2,2.30,+18
+4,Manchester City,20,13,5,2,2.20,+24
+5,Inter,20,13,5,2,2.20,+26
+6,Lille,22,14,6,2,2.18,+22
+1,Manchester City,20,13,5,2,44,+24
+2,Manchester Utd,21,12,5,4,41,+10
+3,Liverpool,21,11,7,3,40,+19
+4,Leicester City,21,12,3,6,39,+12
+5,West Ham,21,10,5,6,35,+4
+6,Tottenham,20,9,6,5,33,+13
+1,Lille,22,14,6,2,48,+22
+2,Lyon,22,13,7,2,46,+26
+3,Paris S-G,22,14,3,5,45,+36
+4,Monaco,22,13,3,6,42,+13
+5,Rennes,21,10,6,5,36,+7
+6,Metz,22,9,7,6,34,+7
+1,Bayern Munich,19,14,3,2,45,+31
+2,RB Leipzig,19,11,5,3,38,+15
+3,Wolfsburg,19,9,8,2,35,+11
+4,Eint Frankfurt,19,8,9,2,33,+10
+5,Leverkusen,19,9,5,5,32,+13
+6,Dortmund,19,10,2,7,32,+11
+1,Milan,20,14,4,2,46,+18
+2,Inter,20,13,5,2,44,+26
+3,Roma,20,12,4,4,40,+11
+4,Juventus,19,11,6,2,39,+21
+5,Lazio,20,11,4,5,37,+8
+6,Napoli,19,12,1,6,37,+24
+1,Atlético Madrid,19,16,2,1,50,+30
+2,Barcelona,20,12,4,4,40,+23
+3,Real Madrid,20,12,4,4,40,+17
+4,Sevilla,20,12,3,5,39,+12
+5,Villarreal,21,8,11,2,35,+9
+6,Real Sociedad,21,8,8,5,32,+13
+1,Philadelphia,23,14,5,4,47,+24
+2,Toronto FC,23,13,5,5,44,+7
+3,Columbus,23,12,5,6,41,+15
+1,Sporting KC,21,12,3,6,39,+13
+2,Seattle,22,11,6,5,39,+21
+3,Portland,23,11,6,6,39,+11
+1,Boca Juniors,23,14,6,3,48,+27
+2,River Plate,23,14,5,4,47,+23
+3,Vélez Sarsf,23,11,6,6,39,+13
+4,Racing Club,23,9,12,2,39,+5
+5,Argentinos Jun,23,10,9,4,39,+5
+6,Defensa y Just,23,10,6,7,36,+8
+1,Brisbane,4,3,0,1,9,+4
+2,Central Coast,5,3,0,2,9,+3
+3,W Sydney,5,2,2,1,8,+1
+4,Sydney FC,4,2,1,1,7,+2
+5,Adelaide,5,2,1,2,7,-1
+6,Macarthur FC,5,2,1,2,7,-3
+1,RB Salzburg,15,11,1,3,34,+32
+2,Rapid Wien,15,10,3,2,33,+14
+3,Sturm Graz,15,8,4,3,28,+14
+4,LASK,15,8,3,4,27,+14
+5,WSG Wattens,15,7,3,5,24,+5
+6,Wolfsberger AC,15,6,3,6,21,-3
+1,Club Brugge,25,18,3,4,57,+35
+2,Antwerp,25,13,4,8,43,+7
+3,Genk,25,12,7,6,43,+16
+4,Standard Liège,25,10,8,7,38,+7
+"","","","","","","",""
+5,Anderlecht,25,9,11,5,38,+8
+6,Charleroi,25,11,4,10,37,+4
+1,Always Ready,26,16,3,7,51,+30
+2,The Strongest,26,16,2,8,50,+30
+3,Bolívar,26,15,4,7,49,+31
+4,Royal Parí,26,14,4,8,46,+8
+5,Wilstermann,26,12,6,8,42,+8
+6,Guabirá,26,13,3,10,42,0
+1,Internacional,33,19,8,6,65,+26
+2,Atlético Mineiro,33,18,6,9,60,+17
+3,Flamengo,32,17,7,8,58,+14
+4,São Paulo,33,16,10,7,58,+17
+5,Fluminense,33,15,8,10,53,+8
+6,Palmeiras,32,14,10,8,52,+14
+1,Ludogorets,16,12,3,1,39,+21
+2,Loko Plovdiv,16,10,3,3,33,+16
+3,CSKA Sofia,16,9,6,1,33,+11
+4,Arda,16,7,8,1,29,+9
+5,Beroe,16,8,4,4,28,+15
+6,CSKA 1948,16,6,6,4,24,+7
+1,Forge FC,10,5,4,1,19,+7
+2,Cavalry FC,10,5,1,4,16,+3
+3,HFX Wanderers,10,4,4,2,16,+1
+4,Pacific FC,10,4,2,4,14,+3
+5,York9 FC,7,2,4,1,10,+1
+6,Valour FC,7,2,2,3,8,-1
+1,Univ Católica,31,16,10,5,58,+28
+2,La Calera,31,17,4,10,55,+19
+3,Unión Española,31,14,9,8,51,+8
+4,Palestino,31,13,8,10,47,+3
+5,Univ Chile,31,11,12,8,45,+11
+6,Antofagasta,31,11,11,9,44,+2
+1,Guangzhou Evg,14,11,1,2,34,+19
+2,Jiangsu Suning,14,7,5,2,26,+8
+3,Shandong Lunen,14,7,3,4,24,+8
+4,Shanghai Shen,14,5,6,3,21,+1
+5,Shenzhen,14,5,2,7,17,0
+6,Guangzhou R&F,14,4,3,7,15,-14
+1,Shanghai SIPG,14,10,2,2,32,+15
+2,Beijing Guoan,14,8,4,2,28,+17
+3,Chongqing SWM,14,7,3,4,24,+3
+4,Hebei Fortune,14,7,3,4,24,+2
+5,Wuhan Zall,14,5,2,7,17,0
+6,Shijiazhuang Ever Bright,14,4,5,5,17,-3
+1,Junior,3,3,0,0,9,+3
+2,AD Cali,3,2,1,0,7,+2
+3,Nacional,3,2,0,1,6,+4
+4,Jaguares,3,2,0,1,6,+2
+5,Independiente,3,2,0,1,6,+1
+6,Pasto,2,1,1,0,4,+1
+1,Dinamo Zagreb,18,12,3,3,39,+26
+2,Osijek,18,12,3,3,39,+13
+3,Gorica,17,10,3,4,33,+14
+4,Rijeka,15,8,2,5,26,+1
+5,Hajduk Split,17,6,2,9,20,-3
+6,Slaven Belupo,17,5,5,7,20,-1
+1,Slavia Prague,17,15,2,0,47,+43
+2,Sparta Prague,17,11,2,4,35,+14
+3,Jablonec,17,11,2,4,35,+14
+4,Slovácko,17,9,4,4,31,+13
+5,Viktoria Plzeň,17,8,3,6,27,+11
+6,Baník Ostrava,17,7,5,5,26,+6
+1,Midtjylland,13,8,3,2,27,+9
+2,Brøndby,13,9,0,4,27,+7
+3,AGF,13,7,3,3,24,+10
+4,Randers,13,7,1,5,22,+9
+5,SønderjyskE,13,6,3,4,21,+4
+6,FC Copenhagen,13,6,2,5,20,+1
+1,LDU de Quito,30,18,5,7,59,+27
+2,Barcelona SC,30,16,10,4,58,+25
+3,Independiente,30,16,6,8,54,+19
+4,Univ Católica,30,14,9,7,51,+20
+5,CS Emelec,30,12,8,10,44,+11
+6,Guayaquil,30,12,8,10,44,0
+1,HJK,22,14,6,2,48,+36
+2,Inter Turku,22,12,5,5,41,+19
+3,KuPS,22,12,5,5,41,+13
+4,FC Honka,22,9,10,3,37,+9
+5,Ilves,22,10,6,6,36,+8
+6,Lahti,22,8,8,6,32,+3
+1,Olympiacos,20,17,3,0,54,+43
+2,AEK Athens,20,12,4,4,40,+11
+3,Aris,20,12,3,5,39,+12
+4,PAOK,20,11,6,3,39,+19
+5,Panathinaikos,20,10,5,5,35,+10
+6,Asteras Tripoli,20,9,6,5,33,+1
+1,Ferencváros,18,13,4,1,43,+26
+2,Vidi,18,9,5,4,32,+21
+3,Kisvárda,18,7,7,4,28,0
+4,Puskás,18,8,3,7,27,-3
+5,MTK Budapest,18,7,5,6,26,+2
+6,Paks,18,7,4,7,25,0
+1,Mumbai City,14,9,3,2,30,+13
+2,Mohun Bagan,14,8,3,3,27,+7
+3,Hyderabad FC,15,5,7,3,22,+4
+4,Goa,14,5,6,3,21,+5
+5,NorthEast Utd,14,5,6,3,21,+1
+6,Jamshedpur,15,4,6,5,18,-3
+1,Esteghlal,13,6,5,2,23,+8
+2,Sanat Naft,13,6,4,3,22,+4
+3,Sepahan,13,6,4,3,22,+3
+4,Foolad,13,4,7,2,19,+4
+5,Tractor Sazi,13,5,4,4,19,+1
+6,Persepolis,11,4,6,1,18,+5
+1,Kawa Frontale,34,26,5,3,83,+57
+2,Gamba Osaka,34,20,5,9,65,+4
+3,Grampus,34,19,6,9,63,+17
+4,Cerezo Osaka,34,18,6,10,60,+9
+5,Kashima Antlers,34,18,5,11,59,+11
+6,FC Tokyo,34,17,6,11,57,+5
+1,Jeonbuk,27,19,3,5,60,+25
+2,Ulsan Hyundai,27,17,6,4,57,+31
+3,Pohang,27,15,5,7,50,+21
+4,Sangju Sangmu,27,13,5,9,44,-2
+5,Daegu,27,10,8,9,38,+4
+6,Gwangju FC,27,6,7,14,25,-14
+1,Santos,4,2,2,0,8,+3
+2,Tijuana,4,2,2,0,8,+2
+3,Toluca,4,2,1,1,7,+3
+4,América,4,2,1,1,7,+2
+5,UANL,4,2,1,1,7,+2
+6,Mazatlán,4,2,1,1,7,-1
+1,Ajax,20,16,2,2,50,+51
+2,PSV Eindhoven,20,13,4,3,43,+24
+3,Vitesse,20,13,3,4,42,+16
+4,Feyenoord,20,11,5,4,38,+17
+5,AZ Alkmaar,20,10,7,3,37,+13
+6,Groningen,20,10,4,6,34,+5
+1,Bodø/Glimt,30,26,3,1,81,+71
+2,Molde,30,20,2,8,62,+41
+3,Vålerenga,30,15,10,5,55,+18
+4,Rosenborg,30,15,7,8,52,+15
+5,Kristiansund,30,12,12,6,48,+12
+6,Viking,30,12,8,10,44,+2
+1,12 de Octubre,11,6,2,3,20,+3
+2,Nacional,11,4,7,0,19,+6
+3,Cerro Porteño,11,5,4,2,19,+5
+4,Libertad,11,5,3,3,18,+5
+5,Guaraní,11,5,3,3,18,+4
+6,Olimpia,11,5,2,4,17,+4
+1,Sporting Cristal,9,7,2,0,23,+11
+2,USMP,9,5,1,3,16,+2
+3,UTC,9,3,5,1,14,+9
+4,Cienciano,9,4,2,3,14,+1
+5,Binacional,9,4,1,4,13,-2
+6,Universitario,9,3,2,4,11,-5
+1,Ayacucho,9,6,2,1,20,+9
+2,U César Vallejo,9,5,3,1,18,+9
+3,Mannucci,9,5,1,3,16,+6
+4,Cusco,9,4,3,2,15,+3
+5,Melgar,9,4,1,4,13,+4
+6,Sport Boys,9,4,0,5,12,-8
+1,Pogoń Szczecin,15,9,4,2,31,+13
+2,Legia Warsaw,15,9,2,4,29,+7
+3,RKS Raków,15,8,4,3,28,+11
+4,Górnik Zabrze,15,7,3,5,24,+4
+5,Śląsk Wrocław,14,7,2,5,23,+6
+6,Jagiellonia,15,7,2,6,23,0
+1,Sporting CP,15,12,3,0,39,+24
+2,Porto,15,11,2,2,35,+20
+3,Benfica,15,10,3,2,33,+15
+4,Braga,15,10,0,5,30,+9
+5,Vitória,15,9,2,4,29,+7
+6,Paços,15,8,4,3,28,+10
+1,FCSB,20,14,3,3,45,+28
+2,CFR Cluj,19,12,5,2,41,+17
+3,U Craiova,20,10,7,3,37,+10
+4,Sepsi,20,8,9,3,33,+13
+5,Clinceni,20,7,9,4,30,+4
+6,Chindia,19,7,7,5,28,+2
+1,Zenit,19,12,5,2,41,+28
+2,CSKA Moscow,19,11,4,4,37,+18
+3,Spartak Moscow,19,10,5,4,35,+12
+4,Sochi,19,9,6,4,33,+6
+5,Rostov,19,10,2,7,32,+4
+6,Dynamo Mosc,19,9,3,7,30,+3
+1,Al-Shabab,16,9,5,2,32,+9
+2,Al-Hilal,15,8,6,1,30,+14
+3,Al-Ahli,16,9,3,4,30,+3
+4,Al-Taawoun,16,6,7,3,25,+8
+5,Al-Ittihad,16,6,7,3,25,+3
+6,Al-Ettifaq,16,7,3,6,24,+1
+1,Rangers,26,23,3,0,72,+59
+2,Celtic,24,14,7,3,49,+31
+3,Aberdeen,25,12,8,5,44,+7
+4,Hibernian,26,12,7,7,43,+10
+5,Livingston,25,10,6,9,36,+3
+6,St Mirren,23,8,5,10,29,-3
+1,Red Star,19,17,2,0,53,+44
+2,Partizan,19,14,2,3,44,+30
+3,Vojvodina,19,13,3,3,42,+18
+4,Čukarički,19,10,5,4,35,+21
+5,Spartak Subotic,19,10,3,6,33,+13
+6,Proleter NS,19,9,5,5,32,+3
+1,Mamelodi Sundowns,15,9,6,0,33,+17
+2,SuperSport United,14,8,4,2,28,+10
+3,Moroka Swallows,14,7,7,0,28,+9
+4,Orlando Pirates,15,6,7,2,25,+5
+5,Cape Town City,14,6,5,3,23,+5
+6,Lamontville Golden Arrows,13,5,7,1,22,+5
+1,Malmö,30,17,9,4,60,+34
+2,Elfsborg,30,12,15,3,51,+11
+3,Häcken,30,12,13,5,49,+16
+4,Djurgården,30,14,6,10,48,+15
+5,Mjällby,30,13,8,9,47,+4
+6,Norrköping,30,13,7,10,46,+14
+1,Young Boys,16,10,5,1,35,+13
+2,Basel,17,8,3,6,27,+2
+3,Zürich,17,7,4,6,25,+6
+4,Lugano,16,5,9,2,24,+2
+5,St. Gallen,16,6,5,5,23,+1
+6,Lausanne-Sport,16,5,5,6,20,0
+1,Fenerbahçe,21,14,3,4,45,+20
+2,Beşiktaş,21,14,2,5,44,+23
+3,Galatasaray,21,13,3,5,42,+25
+4,Trabzonspor,21,10,6,5,36,+3
+5,Gaziantep FK,21,9,8,4,35,+9
+6,Hatayspor,21,10,5,6,35,+8
+1,Dynamo Kyiv,13,9,3,1,30,+15
+2,Shakhtar,13,8,5,0,29,+22
+3,Desna Chernihiv,13,6,5,2,23,+7
+4,Zorya Luhansk,12,5,5,2,20,+13
+5,Vorskla Poltava,13,5,5,3,20,+7
+6,FK Kolos,13,4,6,3,18,+2
+1,Nacional,25,13,9,3,48,+17
+2,Torque,25,12,6,7,42,+13
+3,Peñarol,25,11,7,7,40,+10
+4,Rentistas,25,9,11,5,38,+9
+5,Cerro Largo,25,9,11,5,38,+7
+6,Wanderers,25,10,8,7,38,+6
+1,Dep La Guaira,16,10,3,3,33,+14
+2,Deportivo Lara,16,9,5,2,32,+18
+3,Dep Táchira,14,9,4,1,31,+12
+4,Caracas,14,9,3,2,30,+16
+5,Acad Pr Cabello,16,6,8,2,26,+7
+6,Mineros,16,7,3,6,24,0
+1,Chelsea,12,10,2,0,32,+32
+2,Manchester Utd,13,10,2,1,32,+21
+3,Manchester City,12,8,3,1,27,+31
+4,Arsenal,11,7,2,2,23,+30
+5,Everton,11,5,2,4,17,+4
+6,Reading,13,3,6,4,15,-7
+1,Paris S-G,13,12,1,0,37,+50
+2,Lyon,13,12,0,1,36,+44
+3,Bordeaux,13,8,2,3,26,+18
+4,Montpellier,13,6,2,5,20,-4
+5,Fleury,12,5,4,3,19,-5
+6,Paris FC,13,5,3,5,18,-1
+1,Bayern Munich,12,12,0,0,36,+39
+2,Wolfsburg,12,10,1,1,31,+30
+3,Hoffenheim,12,8,1,3,25,+19
+4,Turbine Potsdam,11,7,1,3,22,0
+5,Leverkusen,12,6,2,4,20,+1
+6,E. Frankfurt,12,5,2,5,17,+11
+1,Juventus,12,12,0,0,36,+31
+2,AC Milan,12,11,0,1,33,+20
+3,Sassuolo,12,8,1,3,25,+11
+4,Empoli FC,12,6,2,4,20,+12
+5,Fiorentina,12,6,2,4,20,+5
+6,AS Roma,12,5,4,3,19,+2
+1,Portland,0,0,0,0,0,0
+2,Washington,0,0,0,0,0,0
+3,Sky Blue,0,0,0,0,0,0
+4,Chicago,0,0,0,0,0,0
+5,Reign,0,0,0,0,0,0
+6,Orlando,0,0,0,0,0,0
+1,Sydney,4,4,0,0,12,+8
+2,Canberra Utd,5,3,2,0,11,+5
+3,Brisbane,6,2,4,0,10,+7
+4,Adelaide Utd,5,3,0,2,9,+1
+5,Melb Victory,5,2,1,2,7,0
+6,Newcastle,5,1,1,3,4,-1
+1,Ajax,8,7,0,1,21,+13
+2,Twente,8,5,1,2,16,+8
+3,PSV,7,5,0,2,15,+5
+4,ADO Den Haag,8,4,1,3,13,+3
+5,Heerenveen,8,3,1,4,10,0
+6,Zwolle,8,1,3,4,6,-9
+1,Vålerenga,18,11,5,2,38,+25
+2,Trondheims-Ørn,18,10,8,0,38,+18
+3,Avaldsnes,18,10,4,4,34,+10
+4,Sandviken,18,9,3,6,30,+6
+5,LSK Kvinner,18,9,2,7,29,+6
+6,Lyn,18,6,3,9,21,-6
+1,Göteborg,22,17,3,2,54,+45
+2,Rosengård,22,14,5,3,47,+43
+3,Kristianstad,22,14,3,5,45,+19
+4,Linköping,22,12,3,7,39,-2
+5,Vittsjö,22,9,4,9,31,-2
+6,Växjö,22,8,3,11,27,-14
