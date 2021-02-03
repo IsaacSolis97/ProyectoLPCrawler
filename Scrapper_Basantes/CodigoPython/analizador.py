@@ -35,15 +35,6 @@ ligas.columns = ["Rank", "Squad", "MatchesPlayed", "Wins", "Draws", "Losses", "P
 #print(ligas[ligas['Wins'].between(10, 12)])
 #print(ligas[ligas.MatchesPlayed == 10])
 
-#genera grafico
-#ligas['Points'].plot(kind='bar')
-#plt.show()
-
-#genera top 5 en puntaje
-#top5 = ligas.sort_values(by=['Points']).tail(6)
-#top5.drop(top5.tail(1).index,inplace=True)
-#print(top5)
-
 
 def buscarPartidos():
     maximo = ligas['MatchesPlayed'].max()
@@ -315,9 +306,6 @@ def buscarGoles():
         else:
             print(ligas[ligas['GoalDiference'].between(numero1, numero2)])      
 
-
-#"Rank", "Squad", "MatchesPlayed", "Wins", "Draws", "Losses", "Points", "GoalDiference"
-
 def buscarEquipo():
     nombre=input("Ingresar nombre del equipo: ")
     print(ligas[ligas.Squad == nombre])
@@ -430,13 +418,173 @@ def menuBusqueda():
     elif op==8:
         menu()
 
+def menuTopX():
+    maximo = ligas['GoalDiference'].count()
+    print("Top X:")
+    print("1. Partidos jugados")
+    print("2. Victorias")
+    print("3. Empates")
+    print("4. Derrotas")
+    print("5. Puntos")
+    print("6. Diferencia de goles")
+    print("7. regresar")
+    op=int(input("Escoja una opcion: "))
+    if op==1:
+        numero=int(input("Ingresar el tamano de la lista: "))
+        if (numero < 1 or numero > maximo):
+            print("Valor fuera de rango")
+        else:
+            numero += 1
+            top = ligas.sort_values(by=['MatchesPlayed']).tail(numero)
+            top.drop(top.tail(1).index,inplace=True)
+            print(top)
+    elif op==2:
+        numero=int(input("Ingresar el tamano de la lista: "))
+        if (numero < 1 or numero > maximo):
+            print("Valor fuera de rango")
+        else:
+            numero += 1
+            top = ligas.sort_values(by=['Wins']).tail(numero)
+            top.drop(top.tail(1).index,inplace=True)
+            print(top)
+    elif op==3:
+        numero=int(input("Ingresar el tamano de la lista: "))
+        if (numero < 1 or numero > maximo):
+            print("Valor fuera de rango")
+        else:
+            numero += 1
+            top = ligas.sort_values(by=['Draws']).tail(numero)
+            top.drop(top.tail(1).index,inplace=True)
+            print(top)
+    elif op==4:
+        numero=int(input("Ingresar el tamano de la lista: "))
+        if (numero < 1 or numero > maximo):
+            print("Valor fuera de rango")
+        else:
+            numero += 1
+            top = ligas.sort_values(by=['Losses']).tail(numero)
+            top.drop(top.tail(1).index,inplace=True)
+            print(top)
+    elif op==5:
+        numero=int(input("Ingresar el tamano de la lista: "))
+        if (numero < 1 or numero > maximo):
+            print("Valor fuera de rango")
+        else:
+            numero += 1
+            top = ligas.sort_values(by=['Points']).tail(numero)
+            top.drop(top.tail(1).index,inplace=True)
+            print(top)
+    elif op==6:
+        numero=int(input("Ingresar el tamano de la lista: "))
+        if (numero < 1 or numero > maximo):
+            print("Valor fuera de rango")
+        else:
+            numero += 1
+            top = ligas.sort_values(by=['GoalDiference']).tail(numero)
+            top.drop(top.tail(1).index,inplace=True)
+            print(top)
+    elif op==7:
+        menu()
+
+#["Rank", "Squad", "MatchesPlayed", "Wins", "Draws", "Losses", "Points", "GoalDiference"]
+#genera top 5 en puntaje
+#top5 = ligas.sort_values(by=['Points']).tail(6)
+#top5.drop(top5.tail(1).index,inplace=True)
+#print(top5)
+#nombre=input("Ingresar nombre del equipo: ")
+
+#equipo = ligas[ligas.Squad == "CS Emelec"]
+#print(equipo)
+#valor = equipo.iat[0,6]
+#print("valor: ", valor)
+#media = ligas['Points'].mean()
+#print("media: ", media)
+#diferencia = abs(valor - media )
+#print("La diferencia entre la media y el numero de pertidos jugados para emelec es: ", diferencia)
+
+#valor = ligas[(ligas["Squad"] == "CS Emelec")
+
+#print(ligas[(ligas["Squad"] == "CS Emelec"))
+
+def menuComparaciones():
+    print("Top X:")
+    print("1. Partidos jugados")
+    print("2. Victorias")
+    print("3. Empates")
+    print("4. Derrotas")
+    print("5. Puntos")
+    print("6. Diferencia de goles")
+    print("7. regresar")
+    op=int(input("Escoja una opcion: "))
+    if op==1:
+        equipo2=input("Ingresar el equipo a comparar: ")
+        equipo = ligas[ligas.Squad == equipo2]
+        valor = equipo.iat[0,2]
+        print("Valor equipo: ", valor)
+        media = ligas['MatchesPlayed'].mean()
+        print("Valor media: ", media)
+        diferencia = abs(valor - media )
+        print("La diferencia entre la media y el numero de pertidos jugados es: ", diferencia)
+    elif op==2:
+        equipo2=input("Ingresar el equipo a comparar: ")
+        equipo = ligas[ligas.Squad == equipo2]
+        valor = equipo.iat[0,3]
+        print("Valor equipo: ", valor)
+        media = ligas['Wins'].mean()
+        print("Valor media: ", media)
+        diferencia = abs(valor - media )
+        print("La diferencia entre la media y el numero de victorias es: ", diferencia)
+    elif op==3:
+        equipo2=input("Ingresar el equipo a comparar: ")
+        equipo = ligas[ligas.Squad == equipo2]
+        valor = equipo.iat[0,4]
+        print("Valor equipo: ", valor)
+        media = ligas['Draws'].mean()
+        print("Valor media: ", media)
+        diferencia = abs(valor - media )
+        print("La diferencia entre la media y el numero de empates es: ", diferencia)
+    elif op==4:
+        equipo2=input("Ingresar el equipo a comparar: ")
+        equipo = ligas[ligas.Squad == equipo2]
+        valor = equipo.iat[0,5]
+        print("Valor equipo: ", valor)
+        media = ligas['Losses'].mean()
+        print("Valor media: ", media)
+        diferencia = abs(valor - media )
+        print("La diferencia entre la media y el numero de derrotas es: ", diferencia)
+    elif op==5:
+        equipo2=input("Ingresar el equipo a comparar: ")
+        equipo = ligas[ligas.Squad == equipo2]
+        print(equipo)
+        valor = equipo.iat[0,6]
+        print("Valor equipo: ", valor)
+        media = ligas['Points'].mean()
+        print("Valor media: ", media)
+        diferencia = abs(valor - media )
+        print("La diferencia entre la media y el numero de puntos es: ", diferencia)
+    elif op==6:
+        equipo2=input("Ingresar el equipo a comparar: ")
+        equipo = ligas[ligas.Squad == equipo2]
+        print(equipo)
+        valor = equipo.iat[0,7]
+        print("Valor equipo: ", valor)
+        media = ligas['GoalDiference'].mean()
+        print("Valor media: ", media)
+        diferencia = abs(valor - media )
+        print("La diferencia entre la media y la diferencia de goles es: ", diferencia)
+    elif op==7:
+        menu()
+
+
 def menu():
     while True:
         print("Analisis equipos de futbol")
         print("1. Estadisticas")
         print("2. Graficos")
         print("3. Busqueda")
-        print("4. salir")
+        print("4. Top X")
+        print("5. Comparaciones con la media")
+        print("6. salir")
         op=int(input("Escoja una opcion: "))
         if op==1:
             menuEstadisticas()
@@ -445,6 +593,10 @@ def menu():
         elif op==3:
             menuBusqueda()
         elif op==4:
+            menuTopX()
+        elif op==5:
+            menuComparaciones()
+        elif op==6:
             break
 
 menu()
