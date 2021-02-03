@@ -10,8 +10,6 @@ ligas.dropna()
 #nombra columnas
 ligas.columns = ["Rank", "Squad", "MatchesPlayed", "Wins", "Draws", "Losses", "Points", "GoalDiference"]
 
-print("Analisis y estadisticas sobre los diferentes equipos en sus respectivas ligas")
-
 #genera lista de equipos no repetidos
 #equipos = ligas['Squad'].unique().tolist()
 #cantidad = len(equipos)
@@ -41,3 +39,101 @@ print(ligas[ligas.Points > 62])
 #top5 = ligas.sort_values(by=['Points']).tail(6)
 #top5.drop(top5.tail(1).index,inplace=True)
 #print(top5)
+
+
+
+def estadisticasPartidos():
+    descriptor = ligas['MatchesPlayed'].describe()
+    print(descriptor)
+
+def estadisticasVictorias():
+    descriptor = ligas['Wins'].describe()
+    print(descriptor)
+
+def estadisticasEmpates():
+    descriptor = ligas['Draws'].describe()
+    print(descriptor)
+
+def estadisticasDerrotas():
+    descriptor = ligas['Losses'].describe()
+    print(descriptor)
+
+def estadisticasPuntos():
+    descriptor = ligas['Points'].describe()
+    print(descriptor)
+
+def estadisticasGolesDif():
+    descriptor = ligas['GoalDiference'].describe()
+    print(descriptor)
+
+def menuEstadisticas():
+    print("Datos estadisticos")
+    print("1. Partidos jugados")
+    print("2. Victorias")
+    print("3. Empates")
+    print("4. Derrotas")
+    print("5. Puntos")
+    print("6. Diferencia de goles")
+    print("7. regresar")
+    op=int(input("Escoja una opcion: "))
+    if op==1:
+        estadisticasPartidos()
+    elif op==2:
+        estadisticasVictorias()
+    elif op==3:
+        estadisticasEmpates()
+    elif op==4:
+        estadisticasDerrotas()
+    elif op==5:
+        estadisticasPuntos()
+    elif op==6:
+        estadisticasGolesDif()
+    elif op==7:
+        menu()
+#"Rank", "Squad", "MatchesPlayed", "Wins", "Draws", "Losses", "Points", "GoalDiference"
+def menuGraficos():
+    print("Graficos")
+    print("1. Partidos jugados")
+    print("2. Victorias")
+    print("3. Empates")
+    print("4. Derrotas")
+    print("5. Puntos")
+    print("6. Diferencia de goles")
+    print("7. regresar")
+    op=int(input("Escoja una opcion: "))
+    if op==1:
+        ligas['MatchesPlayed'].plot(kind='bar')
+        plt.show()
+    elif op==2:
+        ligas['Wins'].plot(kind='bar')
+        plt.show()
+    elif op==3:
+        ligas['Draws'].plot(kind='bar')
+        plt.show()
+    elif op==4:
+        ligas['Losses'].plot(kind='bar')
+        plt.show()
+    elif op==5:
+        ligas['Points'].plot(kind='bar')
+        plt.show()
+    elif op==6:
+        ligas['GoalDiference'].plot(kind='bar')
+        plt.show()
+    elif op==7:
+        menu()
+
+def menu():
+    while True:
+        print("Analisis equipos de futbol")
+        print("1. Estadisticas")
+        print("2. Graficos")
+        print("3. salir")
+        op=int(input("Escoja una opcion: "))
+        if op==1:
+            menuEstadisticas()
+        elif op==2:
+            menuGraficos()
+        elif op==3:
+            break
+
+menu()
