@@ -75,3 +75,46 @@ plt.hist(filtro1EquipoAgrupado)
 plt.show()
 print(filtro1EquipoAgrupado)
 
+
+mediaFiltro1 = filtro1Agrupar["Puntos"].mean()
+
+print("\n")
+print("La media es:")
+print(mediaFiltro1)
+
+print("")
+print("\n")
+
+print("Juagaodres de bajo de la media de la liga seleccionada")
+jugadorBajaMedia = filtro1Agrupar[filtro1Agrupar['Puntos'] <= mediaFiltro1 ]
+print(jugadorBajaMedia)
+ 
+print("\n")
+print("Juagaodres por emcima de la media de la liga seleccionada")
+jugadorALtaMedia = filtro1Agrupar[filtro1Agrupar['Puntos'] >= mediaFiltro1 ]
+print(jugadorALtaMedia)
+
+
+print("\n")
+
+
+filtroGeneral= jugadores
+filtroAgruparGeneral = filtroGeneral.groupby(['Nombre Jugador', 'Equipo']).mean()
+mediaGeneral = filtroAgruparGeneral["Puntos"].mean()
+print("La media es:")
+print(mediaGeneral)
+
+jugadoresGeneralMedialAlta = filtroAgruparGeneral[filtroAgruparGeneral['Puntos'] >= mediaGeneral ]
+jugadoresGeneralMedialBaja = filtroAgruparGeneral[filtroAgruparGeneral['Puntos'] <= mediaGeneral ]
+
+print("Juagaodres por emcima de la media a nivel  general")
+print(jugadoresGeneralMedialAlta)
+
+print("Juagaodres por bajo de la media a nivel de general")
+print(jugadoresGeneralMedialBaja)
+
+
+
+
+
+

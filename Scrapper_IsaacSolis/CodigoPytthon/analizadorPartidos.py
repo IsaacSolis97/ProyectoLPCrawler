@@ -44,12 +44,16 @@ equiposGanadoresL = filtro1[filtro1['Diferencia'] >0]
 print("Ganadores Locales\n")
 listaGanadoresL = equiposGanadoresL[['Equipo1', 'Goles1']]
 print(listaGanadoresL)
+plt.hist(listaGanadoresL)
+plt.show()
 
 equiposGanadoresV = filtro1[filtro1['Diferencia'] <0]
 
 print("Ganadores Visitantes")
 listaGanadoresV = equiposGanadoresV[['Equipo2', 'Goles2']]
 print(listaGanadoresV)
+plt.hist(listaGanadoresV)
+plt.show()
 
 
 
